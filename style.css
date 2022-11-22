@@ -74,3 +74,28 @@ div{
     font-size: 20px;
     padding: 30px;
 }
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: none;
+    opacity: 0.5;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background: darkviolet;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: olivedrab;
+}
+
+.button{
+    background-color: lightpink;
+    color: darkslategray;
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+}
