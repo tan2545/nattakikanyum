@@ -1,0 +1,76 @@
+h2{
+    color: rgb(238, 211, 228);
+}
+P{
+    color: darkred;
+    text-align: center;
+    background-color: khaki;
+}
+.title{
+    color: deeppink;
+    text-align: right;
+    font-size: 80px;
+}
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#techer{
+    font-size: 90px;
+    color: coral;
+    text-align: center;
+    background-color: pink;
+    padding: 50px;
+}
+p.error{
+    color: rgb(187, 59, 12);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+p.success{
+    color: rgb(146, 13, 146);
+    font-size: 30px;
+    font-weight: bolder;
+}
+div{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#box{
+
+    background-color: darkseagreen;
+}
+#box2{
+    background-color: rgb(188, 143, 186);
+}
+#box3{
+    background-color: rgb(226, 213, 139);
+}
+#box4{
+    background-color: rgb(209, 88, 88);
+}
+#box5{
+    background-color: rgb(88, 64, 228);
+}
+#box6{
+    background-color: rgb(243, 179, 96);
+}
+
+.nav{
+    background-color: darkslategrey;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: left;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
